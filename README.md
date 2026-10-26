@@ -21,17 +21,6 @@ I take a brief from idea to published, on a deadline, and then build the small t
 
 ---
 
-## 📊 Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-    <img src="assets/contributions-light.svg" alt="Contribution graph for the last year" width="100%">
-  </picture>
-</p>
-
----
-
 ## 🛠 What I do
 
 | Area | Work |
