@@ -5,7 +5,7 @@
 <h3 align="center">Marketing, design, and the tools that make the work repeatable.</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/search/results/people/?keywords=Ahyaan%20Lakhani"><img src="https://img.shields.io/badge/Ahyaan_Lakhani-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Ahyaan Lakhani on LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/ahyaan-lakhani-b8714727a"><img src="https://img.shields.io/badge/Ahyaan_Lakhani-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Ahyaan Lakhani on LinkedIn"/></a>
 </p>
 
 ---
@@ -71,4 +71,4 @@ I take a brief from idea to published, on a deadline, and then build the small t
 
 Open to marketing, design, and AI-tooling work.
 
-[![LinkedIn](https://img.shields.io/badge/Message_Ahyaan_Lakhani_on-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/search/results/people/?keywords=Ahyaan%20Lakhani)
+[![LinkedIn](https://img.shields.io/badge/Message_Ahyaan_Lakhani_on-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahyaan-lakhani-b8714727a)
