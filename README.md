@@ -21,6 +21,14 @@ I take a brief from idea to published, on a deadline, and then build the small t
 
 ---
 
+## 📊 Activity
+
+<p align="center">
+  <img src="assets/skyline.svg" alt="The year's contributions as an animated skyline" width="100%"/>
+</p>
+
+---
+
 ## 🛠 What I do
 
 | Area | Work |
