@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="banner-title banner-desc">
   <title id="banner-title">Ahyaan Lakhani</title>
-  <desc id="banner-desc">Marketing, design and AI tooling. Dark green banner with a cream title and an ochre arc.</desc>
+  <desc id="banner-desc">Marketing, design and AI tooling. Near-black banner with an off-white title and a lime arc.</desc>
   <defs>
     <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.6" fill="#F4EEE1" fill-opacity="0.12"/>
+      <circle cx="2" cy="2" r="1.6" fill="#F5F5F0" fill-opacity="0.08"/>
     </pattern>
   </defs>
-  <rect width="1200" height="300" fill="#12392B"/>
+  <rect width="1200" height="300" fill="#0A0A0A"/>
   <rect width="1200" height="300" fill="url(#dots)"/>
-  <!-- ochre arc: a single brush of colour, kept to the right side -->
-  <path d="M 820 300 A 380 380 0 0 1 1200 -20" fill="none" stroke="#D9A441" stroke-width="18" stroke-linecap="round"/>
-  <path d="M 880 300 A 320 320 0 0 1 1200 -20" fill="none" stroke="#C4663A" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
-  <circle cx="1088" cy="82" r="10" fill="#F4EEE1"/>
-  <g font-family="Georgia, 'Times New Roman', serif" fill="#F4EEE1">
+  <!-- lime arc: the single accent, kept to the right side -->
+  <path d="M 820 300 A 380 380 0 0 1 1200 -20" fill="none" stroke="#C5FF3E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 880 300 A 320 320 0 0 1 1200 -20" fill="none" stroke="#8FBF2E" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="1088" cy="82" r="10" fill="#F5F5F0"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#F5F5F0">
     <text x="72" y="140" font-size="78" font-weight="700" letter-spacing="-1">Ahyaan Lakhani</text>
-    <text x="74" y="194" font-size="30" font-style="italic" fill="#D9A441">Marketing, design and AI tooling</text>
+    <text x="74" y="194" font-size="30" font-style="italic" fill="#C5FF3E">Marketing, design and AI tooling</text>
   </g>
-  <rect x="74" y="222" width="64" height="4" fill="#C4663A"/>
-  <text x="74" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#F4EEE1" fill-opacity="0.7">BUILT TO SHIP</text>
+  <rect x="74" y="222" width="64" height="4" fill="#8FBF2E"/>
+  <text x="74" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#F5F5F0" fill-opacity="0.7">BUILT TO SHIP</text>
 </svg>
