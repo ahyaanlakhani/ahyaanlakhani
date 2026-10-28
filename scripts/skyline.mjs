@@ -41,7 +41,7 @@ const FG = "#F5F5F0";
 const MUTED = "#8b949e";
 const BG = "#0A0A0A";
 
-const W = 1100, H = 300;
+const W = 1100, H = 340;
 const n = days.length;
 const startDow = new Date(days[0].date + "T00:00:00Z").getUTCDay();
 const cols = Math.ceil((n + startDow) / 7);
@@ -51,11 +51,11 @@ const best = days.reduce((b, d, i) => (d.contributionCount > days[b].contributio
 const left = 60, right = W - 60;
 const bw = (right - left) / cols;
 const depthDX = bw * 0.45, depthDY = bw * 0.38;
-const baseY = H - 30;
+const baseY = H - 38;
 const fw = bw * 0.88, sideX = bw * 0.36, sideY = bw * 0.24;
-const k = (H * 0.55) / Math.sqrt(max);
+const k = (H * 0.43) / Math.sqrt(max);
 
-const ROW_DELAY = 0.14, COL_DELAY = 0.006, RISE = 0.7;
+const ROW_DELAY = 0.12, COL_DELAY = 0.015, RISE = 0.9;
 const riseDone = 6 * ROW_DELAY + cols * COL_DELAY + RISE;
 
 function shade(hex, amount) {
@@ -95,8 +95,8 @@ for (let r = 6; r >= 0; r--) {
 const bc = Math.floor((best + startDow) / 7), br = (best + startDow) % 7;
 const bx = left + bc * bw + br * depthDX + fw / 2;
 const bTop = baseY - br * depthDY - Math.sqrt(max) * k - sideY;
-const labelY = 58;
-const big = `${calendar.totalContributions.toLocaleString("en-US")} contributions this year`;
+const labelY = 48;
+const big = `${calendar.totalContributions.toLocaleString("en-US")} contributions in the last year`;
 const dateStr = new Date(days[best].date + "T00:00:00Z")
   .toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
   .toUpperCase();
@@ -104,21 +104,23 @@ const small = `BEST DAY: ${max} ON ${dateStr}`;
 const fade = `<animate attributeName="opacity" from="0" to="1" begin="${riseDone.toFixed(3)}s" dur="0.5s" fill="freeze"/>`;
 // Near the right edge, put the label to the left of the best day so it stays inside the card.
 const flip = bx > W * 0.6;
-const textX = (flip ? bx - 8 : bx + 8).toFixed(2);
-const anchor = flip ? "end" : "start";
+const textX = "60";
+const anchor = "start";
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${calendar.totalContributions} contributions in the last year, drawn as a skyline">
   <rect width="${W}" height="${H}" rx="14" fill="${BG}"/>
   <g font-family="'IBM Plex Mono', Consolas, monospace">
-    <g opacity="0">
+    <g>
       ${fade}
-      <line x1="${bx.toFixed(2)}" y1="${bTop.toFixed(2)}" x2="${bx.toFixed(2)}" y2="${labelY + 16}" stroke="${FG}" stroke-width="1"/>
-      <circle cx="${bx.toFixed(2)}" cy="${bTop.toFixed(2)}" r="2.5" fill="${FG}"/>
+
+
       <text x="${textX}" y="${labelY}" text-anchor="${anchor}" font-family="Georgia, serif" font-size="26" fill="${FG}">${big}</text>
       <text x="${textX}" y="${labelY + 18}" text-anchor="${anchor}" font-size="11" fill="${MUTED}">${small}</text>
     </g>
   </g>
   ${bars.join("\n  ")}
+  <text x="60" y="${H - 12}" font-family="Consolas, monospace" font-size="10" fill="${MUTED}">OLDER</text>
+  <text x="1040" y="${H - 12}" text-anchor="end" font-family="Consolas, monospace" font-size="10" fill="${MUTED}">RECENT</text>
 </svg>
 `;
 
