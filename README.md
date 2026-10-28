@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/terminal-banner.gif" alt="Ahyaan Lakhani — Marketing Specialist, AI Engineer and Automations, Student, Entrepreneur" width="100%"/>
+  <img src="assets/terminal-banner.gif" alt="Ahyaan Lak — Marketing Specialist, AI Engineer and Automations, Student, Entrepreneur" width="100%"/>
 </p>
 
 <h3 align="center">Marketing, design, and the tools that make the work repeatable.</h3>
