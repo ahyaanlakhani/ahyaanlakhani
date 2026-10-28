@@ -21,6 +21,14 @@ I take a brief from idea to published, on a deadline, and then build the small t
 
 ---
 
+## 🚀 Featured projects
+
+- **[Karachi Events Radar](https://github.com/ahyaanlakhani/karachi-events)** — A Python discovery agent and mobile-friendly dashboard for technology and student events in Karachi. It checks event evidence and preserves previous data if collection fails. [View the dashboard](https://ahyaanlakhani.github.io/karachi-events/).
+- **[ClaudeLens](https://github.com/ahyaanlakhani/claudelens)** — A linter that finds naming clashes, overlapping descriptions, and ambiguous triggers in Claude Code skills.
+- **[LifeOS](https://github.com/ahyaanlakhani/lifeos)** — A personal assistant project exploring agent visibility and control. Its demo uses synthetic data; the README distinguishes working components from those still in progress.
+
+---
+
 ## 📊 Activity
 
 <p align="center">
@@ -77,6 +85,6 @@ I take a brief from idea to published, on a deadline, and then build the small t
 
 ## 📫 Get in touch
 
-Open to marketing, design, and AI-tooling work.
+Open to internship opportunities in marketing, design, and AI tooling.
 
 [![LinkedIn](https://img.shields.io/badge/Message_Ahyaan_Lakhani_on-LinkedIn-C5FF3E?style=flat-square&logo=linkedin&labelColor=0A0A0A&logoColor=C5FF3E)](https://www.linkedin.com/in/ahyaan-lakhani-b8714727a)
